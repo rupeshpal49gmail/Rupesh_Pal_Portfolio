@@ -1,7 +1,9 @@
+import Navbar from "./Navbar";
+
 function Homepage() {
   return (
     <div>
-      <h1>Welcome to Home Page</h1>
+      <Navbar />
     </div>
   );
 }
