@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+// import resume from "../assets/Resume/Updated-Resume.pdf";
 
 function Homepage() {
   return (
@@ -9,8 +10,12 @@ function Homepage() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
             natus!
           </h1>
-          <a href="" className="btn btn-outline-warning">
-            Download
+          <a
+            href=""
+            className="btn btn-outline-warning"
+            download="Updated-Resume.pdf"
+          >
+            Download Resume
           </a>
         </div>
 
