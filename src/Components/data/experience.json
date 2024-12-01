@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "role": "Associate Software Engineer",
+    "oragnisation": "Ovent24",
+    "startDate": "Jan, 2022",
+    "endDate": "Jul, 2023",
+    "location": "Indore",
+    "experience": [
+      "Worked as a Frontend Developer for Collegedoor.com",
+      "Worked as Mobile App Developer for Whitelable Mobile app",
+      "Worked as Mobile app Developer for Homestop App",
+      "Worked as Frontend Developer for Homestop Website"
+    ],
+    "imageSrc": [
+      "oragnization/ovent24.png",
+      "oragnization/collegedoors.png",
+      "oragnization/homestop.png"
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Web Developer",
+    "oragnisation": "SRI SRI INSTITUTE FOR ADVENCED AND RESEARCH",
+    "startDate": "Apr, 2019",
+    "endDate": "Aug, 2019",
+    "location": "Bangalore",
+    "experience": "Worked as a Frontend Developer for RHYTHM Web/App",
+    "imageSrc": "oragnization/ssiar.png"
+  },
+  {
+    "id": 3,
+    "role": "Admin Associate",
+    "oragnisation": "Asian Paint Ltd",
+    "startDate": "June, 2024",
+    "endDate": "Present",
+    "location": "Surat",
+    "experience": ["Admin Associate for Asian Paints Colour Academy"],
+    "imageSrc": ["oragnization/asianpaint.png", "oragnization/bha.png"]
+  }
+]
