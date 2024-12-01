@@ -1,15 +1,13 @@
 import Navbar from "./Navbar";
 // import resume from "../assets/Resume/Updated-Resume.pdf";
+import img_avatar from "./data/avatar.json";
 
 function Homepage() {
   return (
     <div>
       <div className="container home">
         <div className="left">
-          <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
-            natus!
-          </h1>
+          <h1>Lorem ipsum dolor sit amet, natus!</h1>
           <a
             href=""
             className="btn btn-outline-warning"
@@ -20,7 +18,9 @@ function Homepage() {
         </div>
 
         <div className="right">
-          <h3>Lorem ipsum dolor sit amet.</h3>
+          <div className="img_avatar">
+            <img src={`../assets/${img_avatar.avatar}`} alt="Avatar" />
+          </div>
         </div>
       </div>
     </div>

@@ -1,3 +1,8 @@
+:root {
+  --box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
+  --bg-color: rgb(40, 47, 97);
+}
+
 body {
   background-color: rgb(11, 26, 51);
   color: #ffffff;
@@ -25,3 +30,29 @@ a {
 }
 
 /* Code for Homepage */
+.home {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .right .img_avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .right .img_avatar img {
+  width: 400px;
+  height: 390px;
+  border-radius: 100%;
+}
+.home .left {
+  background-color: var(--bg-color);
+  width: 650px;
+  text-align: center;
+  padding: 30px;
+  border-radius: solid yellow;
+  box-shadow: var(--box-shadow);
+}
