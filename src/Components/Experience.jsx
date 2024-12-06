@@ -9,9 +9,9 @@ export const Experience = () => {
         {experience.map((data) => {
           return (
             <div>
-              <div key={data.id} className="exp-items">
+              <div key={data.id} className="exp-items text-center">
                 <div className="left">
-                  <img src={`../assets/organization/${data.imageSrc}`} alt="" />
+                  <img src={`/assets/${data.imageSrc}`} alt="Image-break" />
                 </div>
                 <div className="right">
                   <h2>{data.role}</h2>

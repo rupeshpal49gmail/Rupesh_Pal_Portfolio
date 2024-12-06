@@ -13,9 +13,9 @@
       "Worked as Frontend Developer for Homestop Website"
     ],
     "imageSrc": [
-      "oragnization/ovent24.png",
-      "oragnization/collegedoors.png",
-      "oragnization/homestop.png"
+      "organization/ovent24.png",
+      "organization/collegedoors.png",
+      "organization/homestop.png"
     ]
   },
   {
@@ -26,7 +26,7 @@
     "endDate": "Aug, 2019",
     "location": "Bangalore",
     "experience": "Worked as a Frontend Developer for RHYTHM Web/App",
-    "imageSrc": "oragnization/ssiar.png"
+    "imageSrc": "organization/ssiar.png"
   },
   {
     "id": 3,
@@ -36,6 +36,6 @@
     "endDate": "Present",
     "location": "Surat",
     "experience": ["Admin Associate for Asian Paints Colour Academy"],
-    "imageSrc": ["oragnization/asianpaint.png", "oragnization/bha.png"]
+    "imageSrc": ["organization/asianpaint.png", "oragnization/bha.png"]
   }
 ]

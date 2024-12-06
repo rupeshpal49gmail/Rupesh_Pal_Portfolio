@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 // import resume from "../assets/Resume/Updated-Resume.pdf";
-import img_avatar from "./data/avatar.json";
+import hero from "./data/avatar.json";
 
 function Homepage() {
   return (
@@ -19,7 +19,8 @@ function Homepage() {
 
         <div className="right">
           <div className="img_avatar">
-            <img src={`../assets/${img_avatar.avatar}`} alt="Avatar" />
+            <img src={`../assets/${hero.imgSrc}`} alt="avatar" />
+            <img src="../assets/organization/bha.png" alt="bha" />
           </div>
         </div>
       </div>
