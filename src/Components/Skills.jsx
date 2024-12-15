@@ -6,16 +6,20 @@ const Skills = () => {
     <>
       <div className="container skills">
         <h1>SKILLS</h1>
-        {skills.map((data) => (
-          <>
-            <div className="items" key={data.id}>
-              <div className="item">
+        <div className="items">
+          {skills.map((data) => (
+            <>
+              <div className="item" key={data.id}>
+                <div className="progress-bar">
+                  {" "}
+                  <span id="pb-bcg"> 85%</span>
+                </div>
                 <img src={`/assets/${data.imageSrc}`} alt="img-break" />
                 <h3>{data.title}</h3>
               </div>
-            </div>
-          </>
-        ))}
+            </>
+          ))}
+        </div>
       </div>
     </>
   );
