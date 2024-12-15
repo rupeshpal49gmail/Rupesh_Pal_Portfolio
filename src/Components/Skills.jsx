@@ -1,5 +1,24 @@
 import React from "react";
+import skills from "./data/skills.json";
 
-export const Skills = () => {
-  return <div>Skills</div>;
+const Skills = () => {
+  return (
+    <>
+      <div className="container skills">
+        <h1>SKILLS</h1>
+        {skills.map((data) => (
+          <>
+            <div className="items" key={data.id}>
+              <div className="item">
+                <img src={`/assets/${data.imageSrc}`} alt="img-break" />
+                <h3>{data.title}</h3>
+              </div>
+            </div>
+          </>
+        ))}
+      </div>
+    </>
+  );
 };
+
+export default Skills;

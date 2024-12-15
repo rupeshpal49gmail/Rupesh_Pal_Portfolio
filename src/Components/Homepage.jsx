@@ -4,7 +4,7 @@ import hero from "./data/avatar.json";
 
 function Homepage() {
   return (
-    <div>
+    <>
       <div className="container home">
         <div className="left">
           <h1>Lorem ipsum dolor sit amet, natus!</h1>
@@ -20,11 +20,10 @@ function Homepage() {
         <div className="right">
           <div className="img_avatar">
             <img src={`../assets/${hero.imgSrc}`} alt="avatar" />
-            <img src="../assets/organization/bha.png" alt="bha" />
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

@@ -88,3 +88,32 @@ a {
     box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
   }
 }
+
+/* CSS for Experience Comonent */
+
+.exp {
+  width: 900px;
+}
+
+.exp-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  margin: 20px;
+  padding: 30px;
+  width: 800px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+}
+
+/* Skills Component */
+
+.skills {
+  width: 900px;
+}
+/* .item img {
+  width: 200px;
+  height: 100px;
+} */

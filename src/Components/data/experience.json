@@ -2,7 +2,7 @@
   {
     "id": 1,
     "role": "Associate Software Engineer",
-    "oragnisation": "Ovent24",
+    "organization": "Ovent24",
     "startDate": "Jan, 2022",
     "endDate": "Jul, 2023",
     "location": "Indore",
@@ -21,21 +21,21 @@
   {
     "id": 2,
     "role": "Web Developer",
-    "oragnisation": "SRI SRI INSTITUTE FOR ADVENCED AND RESEARCH",
+    "organization": "SRI SRI INSTITUTE FOR ADVENCED AND RESEARCH",
     "startDate": "Apr, 2019",
     "endDate": "Aug, 2019",
     "location": "Bangalore",
-    "experience": "Worked as a Frontend Developer for RHYTHM Web/App",
-    "imageSrc": "organization/ssiar.png"
+    "experience": ["Worked as a Frontend Developer for RHYTHM Web/App"],
+    "imageSrc": ["organization/ssiar.png"]
   },
   {
     "id": 3,
     "role": "Admin Associate",
-    "oragnisation": "Asian Paint Ltd",
+    "organization": "Asian Paints Ltd",
     "startDate": "June, 2024",
     "endDate": "Present",
     "location": "Surat",
     "experience": ["Admin Associate for Asian Paints Colour Academy"],
-    "imageSrc": ["organization/asianpaint.png", "oragnization/bha.png"]
+    "imageSrc": ["organization/asianpaint.png", "organization/bha.png"]
   }
 ]

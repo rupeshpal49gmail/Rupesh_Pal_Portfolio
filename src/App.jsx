@@ -2,6 +2,7 @@
 import { Experience } from "./Components/Experience";
 import Homepage from "./Components/Homepage";
 import Navbar from "./Components/Navbar";
+import Skills from "./Components/Skills";
 // import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Homepage />
       <Experience />
+      <Skills />
     </>
   );
 }
