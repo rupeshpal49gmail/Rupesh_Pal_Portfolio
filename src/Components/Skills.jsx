@@ -12,7 +12,7 @@ const Skills = () => {
               <div className="item" key={data.id}>
                 <div className="progress-bar">
                   {" "}
-                  <span id="pb-bcg"> 85%</span>
+                  <span id="pb-bcg"> 55%</span>
                 </div>
                 <img src={`/assets/${data.imageSrc}`} alt="img-break" />
                 <h3>{data.title}</h3>

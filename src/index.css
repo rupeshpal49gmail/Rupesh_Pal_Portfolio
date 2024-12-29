@@ -141,10 +141,35 @@ a {
   height: 20px;
   background-color: #f2f2f2;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 #pb-bcg {
-  width: 80%;
+  width: 55%;
   background-color: #7171f3;
   text-align: right;
   padding-right: 10px;
 }
+
+/* Registration Section */
+
+/* header {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 30px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: end;
+  margin-right: 100px;
+}
+
+.formData {
+  margin-bottom: 200px;
+  display: block;
+  margin: 0 auto;
+}
+label {
+  display: block;
+}
+input {
+  display: block;
+} */
