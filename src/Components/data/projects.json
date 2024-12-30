@@ -2,7 +2,7 @@
   {
     "key": 1,
     "title": "React Website",
-    "imageSrc": "abc",
+    "imageSrc": "organization/ovent24.png",
     "description": "This is the project made with react and mongodb",
     "demo": "https://www.abc.com",
     "source": "https://www.youtube.com"

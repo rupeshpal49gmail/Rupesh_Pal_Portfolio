@@ -17,11 +17,11 @@ function Homepage() {
           </a>
         </div>
 
-        <div className="right">
+        {/* <div className="right">
           <div className="img_avatar">
             <img src={`../assets/${hero.imgSrc}`} alt="avatar" />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
